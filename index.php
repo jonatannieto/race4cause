@@ -458,7 +458,209 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- /.product-catagory -->	
+			</div><!-- /.product-catagory -->
+            <div id="PAYMENTS" class="blog-section section-padding">
+                <div class="container">
+                    <div class="section-title-area text-center style-2">
+                        <h3>DONACIONES</h3>
+                        <img src="images/misc/1.png" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lacus convallis, elementum turpis sed, porta urna.<br/>felis vitae justo tempor pulvinar.
+                        </p>
+                    </div>
+                    <div class="blog-content-area">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/7.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/8.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one last">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/9.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="section-title-area text-center style-2">
+                        <h3>DONACIONES</h3>
+                        <img src="images/misc/1.png" alt="img">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lacus convallis, elementum turpis sed, porta urna.<br/>felis vitae justo tempor pulvinar.
+                        </p>
+                    </div>
+                    <div class="blog-content-area">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/7.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/8.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                            <div class="col-md-4 col-sm-6">
+                                <article class="post-single style-one last">
+                                    <div class="blog-thumb ps-rel">
+                                        <img src="images/blog/9.jpg" alt="img" class="img-responsive">
+                                        <div class="overlay-common"></div>
+                                        <a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <h4 class="post-title">
+                                            <a href="#">
+                                                Shoot the trails was awesome last night.
+                                            </a>
+                                        </h4>
+                                        <p class="mrg-b-20">
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                        </p>
+                                        <div class="blog-footer">
+                                            <div class="post-meta-data">
+                                                <span class="post-time">5 MAY 2016</span>
+                                                <span class="post-author last">BY <a href="#">ADMIN</a></span>
+                                            </div>
+                                            <div class="post-btn">
+                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div><!-- /.blog-content -->
+                                </article>
+                            </div><!-- /.col-md-4 -->
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.payments-section -->
 			<div id="SPONSORSHIP" class="partners-section">
 				<div class="container">
 					<div id="parnar_carousel" class="owl-carousel owl-theme">
