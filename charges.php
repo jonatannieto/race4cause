@@ -9,18 +9,16 @@
  // Set your secret key: remember to change this to your live secret key in production
  // See your keys here: https://dashboard.stripe.com/account/apikeys
  \Stripe\Stripe::setApiKey($stripe['sk_test_tTyL4fH2P7x2dRYHXjm66tBe']);
- echo \Stripe\Stripe::getApiKey();
  // Get the credit card details submitted by the form
  $token = $_POST['stripeToken'];
- echo $token;
  // Create a charge: this will charge the user's card
  try {
      echo '<p>Charge</p>';
-   $charge = \Stripe\Charge::create(array(
-     "amount" => 2000, // Amount in cents
-     "currency" => "eur",
-     "source" => $token,
-     "description" => "2 widgets"
+     $charge = \Stripe\Charge::create(array(
+         "amount" => 2000,
+         "currency" => "eur",
+         "source" => $token,
+         "description" => "2 widgets"
      ));
      echo '<p>Succesful</p>';
  } catch(\Stripe\Error\Card $e) {
