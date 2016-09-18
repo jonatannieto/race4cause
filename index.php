@@ -361,7 +361,7 @@
 										</div>
 									</div><!-- /.blog-content 
 								</article>-->
-                                <?php require_once('./config.php'); ?>
+                                <?php require_once('config.php'); ?>
 
                                 <form action="charge.php" method="post">
                                     <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
