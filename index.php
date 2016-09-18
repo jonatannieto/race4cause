@@ -561,13 +561,6 @@
                     </div>
                 </div>
                 <div class="container">
-                    <div class="section-title-area text-center style-2">
-                        <h3>DONACIONES</h3>
-                        <img src="images/misc/1.png" alt="img">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lacus convallis, elementum turpis sed, porta urna.<br/>felis vitae justo tempor pulvinar.
-                        </p>
-                    </div>
                     <div class="blog-content-area">
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
