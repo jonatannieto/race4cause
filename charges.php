@@ -8,7 +8,6 @@
  // Set your secret key: remember to change this to your live secret key in production
  // See your keys here: https://dashboard.stripe.com/account/apikeys
  require_once('Stripe/lib/Stripe.php');
-  echo '<p>1</p>';
  Stripe::setApiKey("sk_test_tTyL4fH2P7x2dRYHXjm66tBe");
  echo '<p>2</p>';
  // Get the credit card details submitted by the form
