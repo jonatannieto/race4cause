@@ -55,7 +55,7 @@
 						</button>
 						<!-- TEMPLATE LOGO -->
 						<div class="navbar-brand">
-							<a href="index.html"><img src="images/logo.png" alt="img"></a>
+							<a href="index.php"><img src="images/logo.png" alt="img"></a>
 						</div>
 					</div>
 					<div class="collapse navbar-collapse" id="my-navbar-collapse">
@@ -361,18 +361,14 @@
 										</div>
 									</div><!-- /.blog-content 
 								</article>-->
-								<form action="/charges.php" method="POST">
-                                    <script
-                                      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                      data-key="pk_test_eECtzyNCYJofAgrmIu7QKchn"
-                                      data-amount="2000"
-                                      data-name="jonatannietoa"
-                                      data-description="2 widgets"
-                                      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                                      data-locale="auto"
-                                      data-zip-code="true"
-                                      data-currency="eur">
-                                    </script>
+                                <?php require_once('./config.php'); ?>
+
+                                <form action="charge.php" method="post">
+                                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                            data-key="<?php echo $stripe['publishable_key']; ?>"
+                                            data-description="Access for a year"
+                                            data-amount="5000"
+                                            data-locale="auto"></script>
                                 </form>
 							</div><!-- /.col-md-4 -->
 						</div>
