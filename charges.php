@@ -18,7 +18,7 @@
      "amount" => 2000, // Amount in cents
      "currency" => "eur",
      "source" => $token,
-     "description" => "Example charge"
+     "description" => "2 widgets"
      ));
      echo '<p>Succesful</p>';
  } catch(vendor\stripe\stripe-php\lib\Stripe\Error\Card $e) {
