@@ -368,6 +368,7 @@
                                             data-key="<?php echo $stripe['publishable_key']; ?>"
                                             data-name="Race4Cause"
                                             data-description="Donación 50"
+                                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
                                             data-amount="5000"
                                             data-locale="auto"
                                             data-currency="eur">></script>
