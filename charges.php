@@ -7,21 +7,22 @@
  echo '<p>Start payment</p>';
  // Set your secret key: remember to change this to your live secret key in production
  // See your keys here: https://dashboard.stripe.com/account/apikeys
- vendor\stripe\stripe-php\lib\Stripe\Stripe::setApiKey("sk_test_tTyL4fH2P7x2dRYHXjm66tBe");
+ require_once('Stripe/lib/Stripe.php');
+ Stripe::setApiKey("sk_test_tTyL4fH2P7x2dRYHXjm66tBe");
 
  // Get the credit card details submitted by the form
  $token = $_POST['stripeToken'];
 
  // Create a charge: this will charge the user's card
  try {
-   $charge = vendor\stripe\stripe-php\lib\Stripe\Charge::create(array(
+   $charge = Stripe_Charge::create(array(
      "amount" => 2000, // Amount in cents
      "currency" => "eur",
      "source" => $token,
      "description" => "2 widgets"
      ));
      echo '<p>Succesful</p>';
- } catch(vendor\stripe\stripe-php\lib\Stripe\Error\Card $e) {
+ } catch(Stripe_CardError $e) {
    // The card has been declined
    echo '<p>Payment declined</p>';
  }
