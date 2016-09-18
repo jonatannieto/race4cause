@@ -5,6 +5,7 @@
  <body>
  <?php
  echo '<p>Start payment</p>';
+ require_once('vendor/autoload.php');
  // Set your secret key: remember to change this to your live secret key in production
  // See your keys here: https://dashboard.stripe.com/account/apikeys
  \Stripe\Stripe::setApiKey($stripe['sk_test_tTyL4fH2P7x2dRYHXjm66tBe']);
