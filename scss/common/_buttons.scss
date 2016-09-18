@@ -1,0 +1,71 @@
+
+/*-------------------------
+	2 - Button Styles
+-------------------------*/
+
+.btn {
+	&, &:active, &:visited, &:focus {
+		background-color: $bg_blue;
+		color: $white_color;
+		padding: 10px 30px;
+		border: 1px solid transparent;
+		border-radius: 0;
+		text-transform: uppercase;
+		font-size: 16px;
+		line-height: 100%;
+		letter-spacing: 0.025em;
+		font-weight: bold;
+		font-family: $Montserrat_font;
+	}
+	&:hover{
+		border-color: $bg_blue;
+		color: $bg_blue;
+		background-color: $white_color;
+	}
+}
+
+/* Rectangle Out */
+
+.mb-btn {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	background: #e1e1e1;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+.mb-btn:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #2098d1;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.mb-btn:hover, .mb-btn:focus, .mb-btn:active {
+	color: white;
+}
+.mb-btn:hover:before, .mb-btn:focus:before, .mb-btn:active:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+

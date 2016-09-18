@@ -1,0 +1,25 @@
+/*------------------------------------------
+		breadccrumb style
+-------------------------------------------*/  
+.sub-header {
+	padding: 200px 0 180px 0;
+	background-image: url(../../images/bg/3.jpg);
+	position: relative;
+	.breadcrumb{
+		padding: 0;
+		background: none;
+		text-align: center;
+		h2{
+			font-size: 65px;
+			font-weight: 700;
+			line-height: 120px;
+			color: $white_color;
+		}
+		span{
+			color: $white_color;
+			a{
+				color: $breadcrumb_color;
+			}
+		}
+	}
+}

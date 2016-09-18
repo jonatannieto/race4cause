@@ -1,0 +1,124 @@
+/*------------------------------------------
+		sidebar style
+-------------------------------------------*/
+.widget{
+	margin-bottom: 100px;
+	
+}
+.widget.last{
+	margin-bottom: 0px;
+}
+.widget-title h5{
+	font-size: 15px;
+	font-weight: 400;
+	color: $lite_black;
+	margin-bottom: 50px;
+	letter-spacing: 0.135px;
+}
+.custom_widget_search .search-form{
+	font-size: 0;
+	input[type="text"]{
+		height: 50px;
+		width: 100%;
+		padding-left: 25px;
+		background: #e6e7e9;
+		border: none;
+		font-size: 12px;
+		box-shadow: none;
+		display: inline-block;
+		&:focus,&:active{
+			outline: 0;
+			box-shadow: none;
+		}
+	}
+	input[type="submit"]{
+		height: 50px;
+		width: 50px;
+		border: none;
+		margin-top: -1px;
+		display: inline-block;
+		background-color: $bg_blue;
+		background-image: url(../../images/misc/10.png);
+		background-position: center center;
+		&:focus,&:active{
+			outline: 0;
+			box-shadow: none;
+		}
+	}
+}
+.widget_categories ul{
+	li{
+		line-height: 40px;
+		font-size: 13px;
+		border-bottom: 1px solid #e1e1e1;
+		&:hover a,&:hover span{
+			color: $lite_blue;
+		}
+		&:last-child{
+			border-bottom: none;
+		}
+	}
+	li a{
+			float: left;
+			color: $lite_gray;
+			transition: all 0.3s ease-in;
+	}
+	li span{
+		float: right;
+		color: $lite_gray;
+		transition: all 0.3s ease-in;
+	}
+	
+}
+
+.widget_recent_post{
+	ul li .widget-img{
+		float: left;
+	}
+	ul li{
+		display: table;
+		margin-bottom: 20px;
+	}
+	.widget-content{
+		padding-left: 15px;
+		display: table-cell;
+		vertical-align: middle;
+		h5 a{
+			font-size: 16px;
+			line-height: 24px;
+			color: $lite_black;
+		}
+		span{
+			font-size: 11px;
+			color: #a1a3a5;
+		}
+	}
+}
+.widget_popular_tag{
+	ul{
+		font-size: 0;
+		li{
+			height: 30px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			background: #dddddd;
+			display: inline-block;
+			transition: all 0.3s ease-in;
+			&:hover{
+				background: $bg_blue;
+			}
+			&:hover a{
+				color: $white_color;
+			}
+			a{
+				padding-left: 13px;
+				padding-right: 13px;
+				color: #a1a3a5;
+				font-size: 11px;
+				line-height: 30px;
+				transition: all 0.3s ease-in;
+			}
+		}
+	}
+	
+}

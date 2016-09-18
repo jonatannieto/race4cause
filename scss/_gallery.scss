@@ -1,0 +1,82 @@
+/*---------------------------------
+		gallary styling
+---------------------------------*/
+.gallery-masonry{
+	padding-top: 150px;
+}
+#gallary_grid{
+	.grid-item {
+	  width: 25%;
+	  margin-bottom: -10px;
+	  cursor: pointer;
+	}
+	.grid-item.W2{
+		width: 50%;
+	}
+	.gallary-item-content{
+		position: absolute;
+		bottom: 50px;
+		left: 0;
+		transition: all 0.3s ease-in;
+	}
+	.gallery-overlay{
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		background: rgba(0,0,0,.6);
+		transition: all 0.3s ease-in;
+	}
+	.grid-item:hover .gallery-overlay{
+		opacity: 1;
+	}
+}
+.gallary-item-content{
+	h3{
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 22px;
+		margin-bottom: 20px;
+	}
+	h4 a{
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 22px;
+		margin-top: 55px;
+	}
+	h3,h4 a,h4 span{
+		color: #fff;
+	}
+	span{
+		margin: 0 5px;
+	}
+}
+.grid-item:hover .gallary-item-content{
+		transform: translateX(30px);
+}
+.gallary-filter-button{
+	margin-top: 45px;
+	margin-bottom: 40px;
+	button{
+		background: none;
+		border: none;
+		padding: 0 20px;
+		color: #727376;
+		font-size: 13px;
+		line-height: 22px;
+		font-family: "Open Sans", sans-serif;
+		transition: all 0.3s ease-in;
+		&:focus,&:active{
+			outline: 0;
+		}
+		&:hover{
+			color: $lite_blue;
+		}
+	}
+	button.active{
+		color: $lite_blue;
+	}
+	
+}

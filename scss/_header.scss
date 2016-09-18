@@ -1,0 +1,116 @@
+
+/*-------------------------
+	Navigation Styling
+-------------------------*/
+
+.navbar-default.navbar-fixed-top{
+	background: none;
+	box-shadow: none;
+	border: none;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	margin-bottom: 0;
+	border-bottom: 1px solid transparent;
+	transition: all 0.3s ease-in;
+	.navbar-nav > .active > a{
+		background: none;
+		box-shadow: none;
+		color: $white_color;
+		&:after{
+			width: 100%;
+		}
+	}
+	.navbar-nav > li > a{
+		text-shadow: none;
+		font-size: 12px;
+		letter-spacing: 0.36px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		position: relative;
+		transition: all 0.3s ease-in;
+		&:after{
+			content: '';
+			display: block;
+			height: 4px;
+			width: 0;
+			margin-top: 5px;
+			background: transparent;
+			transition: width .5s ease, background-color .5s ease;
+		}
+		&:hover:after{
+			width: 100%;
+		}
+	}
+	.navbar-brand{
+		padding: 8px 15px;
+	}
+}
+.navbar-default.navbar-fixed-top.fixed-menu{
+	background: rgba(47, 47, 45, 0.69);
+	padding-top: 20px;
+    padding-bottom: 20px;
+	border-bottom: 1px solid transparent;
+}
+
+
+/*----------------------
+	child-menu
+------------------------*/
+.navbar-default{
+	.has-sub-menu {
+		position: relative;
+		.sub-menu {
+			position: absolute;
+			top:100%;
+			left: 0;
+			padding-left: 0;
+			list-style: none;
+			z-index: 9999;
+			opacity: 0;
+			visibility: hidden;
+			transform: translateY(50px);
+			transition: all 0.4s ease-in-out;
+		}
+		&:hover > .sub-menu{
+			transform: translateY(0);
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+	.sub-menu li{
+		width: 150px;  
+		background: rgba(47, 47, 45, 0.69);
+		padding: 0;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+	.sub-menu a{
+		display: inline-block;
+		width: 100%;
+		color: #fff;
+		font-size: 11px;
+		padding: 12px 20px;
+		text-transform: uppercase;
+		text-decoration: none; 
+		&:hover{
+			background: rgba(0,0,0,.1);
+		}
+	}
+	.sub-menu .has-sub-menu:before{
+		color: #fff;
+		position: absolute;
+		content: "\f105";
+		font-family: "FontAwesome";
+		top: 14px;
+		right: 22px;
+	}
+	.has-sub-menu:hover:before {
+		color: $lite_blue;
+	}
+	.sub-menu .sub-menu{
+		left: 100%;
+		top: 0;
+	}
+}
+.navbar-nav .has-sub-menu button{
+	display: none;
+}

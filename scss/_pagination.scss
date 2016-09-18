@@ -1,0 +1,58 @@
+
+/*------------------------------------------
+		Pagination style
+-------------------------------------------*/  
+.pagination-area{
+	.pagination{
+		width: 100%;
+		margin: 0;
+		.nav-links{
+			.page-numbers{
+				font-size: 12px;
+				line-height: 30px;
+				font-family: $Montserrat_font;
+			}
+			.prev.page-numbers{
+				float:left ;
+				span{
+					padding: 13px 0 13px 35px;
+				}
+			}
+			.next.page-numbers{
+				float: right;
+				span{
+					padding: 13px 35px 13px 0;
+				}
+			}
+			.next.page-numbers,
+			.prev.page-numbers{
+				color: $lite_blue;
+				margin: 0;
+				border-bottom: none !important;
+				span{
+					
+					background: #f2f2f2;
+					transition: all 0.3s ease-in;
+				}
+				&:hover span{
+					background: #eeeeee;
+					
+				}
+			}
+			.page-numbers{
+				padding: 0 10px;
+				color: #a7a7a7;
+				transition: all 0.3s ease-in;
+				&:hover{
+					color: #000000;
+					border-bottom: 3px solid $lite_blue;
+				}
+			}
+			.page-numbers.current{
+					color: #000000;
+					border-bottom: 3px solid $lite_blue;
+			}
+			
+		}
+	}
+}

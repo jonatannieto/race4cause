@@ -1,0 +1,52 @@
+.about-section{
+	.section-title-area{
+		margin-bottom: 65px;
+	}
+}
+.about-section{
+	background: url(../../images/bg/1.png) center center;
+}
+.about-content{
+	text-align: center;
+	padding: 0 80px;
+	&:hover .icon-circled{
+		border-color: $lite_blue;
+	}
+}
+.icon-circled{
+	height: 85px;
+	width: 85px;
+	margin: 0 auto 30px auto;
+	line-height: 80px;
+	border: 1px solid #bdbfc1;
+	border-radius: 50%;
+	text-align: center;
+	transition: all 0.3s ease-in;
+}
+.about-heading{
+	h6{
+		color: $service_title_color;
+		font-weight: 300;
+	}
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		height: 2px;
+		width: 30px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 0;
+		background: $bg_blue; 
+	}
+}
+.about-content{
+	p{
+		line-height: 22px;
+		font-weight: 400;
+	}
+}

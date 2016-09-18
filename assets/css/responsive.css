@@ -1,0 +1,497 @@
+/*-------------------------
+	16 - Responsive Styles
+-------------------------*/
+@media screen and (max-width: 1366px) {
+	#slider_one .owl-controls .owl-nav .owl-next {
+		right: 45px;
+	}
+	#slider_one .owl-controls .owl-nav .owl-prev {
+		left: 45px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.slider-content {
+		text-align: center;
+	}
+	#slider_one .owl-controls .owl-nav .owl-prev {
+		left: 45px;
+	}
+	#slider_one .owl-controls .owl-nav .owl-next {
+		right: 45px;
+	}
+	.blog-footer .post-meta-data,
+	.blog-footer .post-btn {
+		float: none;
+	}
+	.blog-footer .post-meta-data {
+		margin-bottom: 30px;
+	}
+	.catagory-outer-img {
+		display: none;
+	}
+	.product-details-area {
+		margin-top: 0;
+		text-align: center;
+	}
+	.product-catagory-content .tab-pane {
+		padding: 90px 100px 90px 100px;
+	}
+	.product-catagory-nav.nav.nav-pills {
+		margin-top: 0;
+	}
+	.product-catagory-nav.nav-pills > li {
+		margin-right: 45px;
+	}
+	.footer-middle .subscribe-form input[type="email"] {
+		width: 65%;
+	}
+	.footer-sub-middle .address-text i.fa {
+		margin-right: 10px;
+	}
+	.slider-content h3 {
+		font-size: 20px;
+	}
+	.slider-content .btn-common {
+		margin-top: 15px;
+	}
+	.about-content {
+		padding: 0 0;
+	}
+	.post-single{
+		margin-bottom: 30px;
+	}
+	.post-single.last {
+		margin-bottom: 0;
+	}
+	.blog-footer .post-btn, 
+	.blog-footer .post-meta-data{
+		display: block;
+	}
+	.custom_widget_search .search-form input[type="text"] {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slider-content {
+		top: 38%;
+	}
+	.slider-content h2 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.slider-content {
+		margin-top: 35px;
+	}
+	.slider-content h3 {
+		font-size: 20px;
+	}
+	.slider-content .btn-common {
+		margin-top: 15px;
+	}
+	.post-single {
+		margin-bottom: 30px;
+	}
+	.post-single.last {
+		margin-bottom: 0;
+	}
+	.blog-footer .post-btn,
+	.blog-footer .post-meta-data {
+		display: block;
+	}
+	.product-catagory-nav.nav-pills > li {
+		margin-right: 0;
+	}
+	.partners-section {
+		overflow-x: hidden;
+	}
+	.footer-middle,
+	.footer-sub-middle,
+	.footer-bottom {
+		text-align: center;
+	}
+	.footer-social {
+		margin-top: 20px;
+	}
+	.footer-sub-middle {
+		margin-top: 55px;
+	}
+	.footer-sub-middle .address-text p {
+		width: 100%;
+		float: none;
+	}
+	.footer-sub-middle .address-text i.fa {
+		display: none;
+	}
+	.sidebar {
+		margin-top: 80px;
+	}
+	.widget.last {
+		margin-bottom: 0;
+	}
+	.navbar-default.navbar-fixed-top,
+	.navbar-default.navbar-fixed-top.fixed-menu{
+		background: rgba(47, 47, 45, 0.89);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid transparent;
+	}
+	.slider-wrap,
+	.sub-header{
+		margin-top: 91px;
+	}
+  
+}
+@media screen and (max-width: 736px) {
+	.navbar-default .sub-menu li {
+		background: transparent;
+	}
+	.footer-top {
+		text-align: center;
+	}
+	.footer-widget .widget-title {
+		margin-bottom: 25px;
+	}
+	.footer-wdget-title h5 {
+		margin-bottom: 0;
+	}
+	.footer-widget {
+		margin-bottom: 50px;
+	}
+	.footer-middle, .footer-middle .subscribe-form {
+		margin-top: 0;
+	}
+	#slider_one .owl-controls .owl-nav .owl-prev {
+		left: 10px;
+	}
+	#slider_one .owl-controls .owl-nav .owl-next {
+		right: 10px;
+	}
+	.about-section {
+		background-size: cover;
+	}
+	.about-content{
+		margin-bottom: 50px;
+	}
+	.gallary-filter-button button{
+		padding: 0px 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	#slider_one .owl-dots {
+		display: none !important;
+	}
+	#slider_one .owl-controls .owl-nav .owl-prev,
+	#slider_one .owl-controls .owl-nav .owl-next {
+		width: 30px;
+		height: 30px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.gallary-item-inner img {
+		max-width: none;
+		width: 100%;
+	}
+	.gallery-item-popup {
+		display: block;
+	}
+}
+@media screen and (min-width: 667px) and (max-width: 736px) {
+	.gallary-item-content h4 a {
+		font-size: 15px;
+	}
+	.gallary-item-content h3 {
+		font-size: 25px;
+	}
+	#gallary_grid .gallary-item-content {
+		bottom: 25px;
+	}
+	#gallary_grid .grid-item:hover .gallary-item-content {
+		transform: translateX(20px);
+	}
+	.product-catagory-nav.nav.nav-pills li > a {
+		padding: 35px 20px 0px 25px;
+	}
+	.comment-form-area .comment-form input[type="text"] {
+		margin-right: 20px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.section-padding {
+		padding: 100px 0;
+	}
+	.gallery-masonry {
+		padding-top: 100px;
+	}
+	#slider_one .owl-controls {
+		display: none;
+	}
+	.slider-content h3 {
+		display: none;
+	}
+	.slider-content h2 {
+		font-size: 25px;
+		line-height: 25px;
+		margin-bottom: 15px;
+	}
+	.slider-content {
+		margin-top: 20px;
+	}
+	#slider_one .owl-controls .owl-nav .owl-prev {
+		left: 5px;
+	}
+	#slider_one .owl-controls .owl-nav .owl-next {
+		right: 5px;
+	}
+	#gallary_grid .grid-item {
+		width: 100%;
+	}
+	#gallary_grid .grid-item.W2 {
+		width: 100%;
+	}
+	.product-catagory-nav.nav-pills > li {
+		margin-bottom: 20px;
+	}
+	.product-catagory-content .tab-pane {
+		padding: 90px 0px 90px 0px;
+	}
+	.product-catagory-nav.nav.nav-pills li > a:before {
+		top: 12px;
+		left: 0;
+		right: 0;
+	}
+	.product-catagory-nav.nav.nav-pills:before {
+		content: none;
+	}
+	.footer-middle .subscribe-form input[type="email"] {
+		width: 100%;
+	}
+	.footer-middle .subscribe-form input[type="submit"].contact-btn {
+		margin-top: 15px;
+	}
+	.pagination-area .pagination .nav-links .page-numbers {
+		padding: 0 5px;
+	}
+	.single-post-author .post-author-thumb {
+		float: none;
+		text-align: center;
+	}
+	.single-post-author .post-author-thumb img {
+		display: inline-block;
+	}
+	.single-post-author .post-author-info {
+		padding: 40px 20px 35px 20px;
+		text-align: center;
+	}
+	.blog-content {
+		text-align: center;
+	}
+	.comment-form-area .comment-form input[type="text"],
+	.comment-form-area .comment-form input[type="email"] {
+		width: 100%;
+	}
+	.comment-form-area .comment-form input[type="text"] {
+		margin-right: 0;
+	}
+	.product-catagory-nav.nav.nav-pills li > a {
+		padding: 35px 15px 0px 15px;
+	}
+	.single-blog-post ul{
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 586px) {
+	#gallary_grid .grid-item {
+		width: 100%;
+		margin-bottom: 0;
+	}
+	#gallary_grid .grid-item.W2 {
+		width: 100%;
+	}
+	#ABOUT.section-padding {
+		padding-bottom: 60px;
+	}
+	.product-catagory-nav.nav-pills > li {
+		margin-bottom: 20px;
+		float: none;
+		display: inline-block;
+	}
+	.product-catagory-content .tab-pane h3 {
+		line-height: 30px;
+	}
+	.section-title-area br {
+		display: none;
+	}
+	.section-title-area h3 {
+		line-height: 30px;
+	}
+	.product-catagory-content .tab-pane {
+		padding: 75px 0;
+	}
+	.product-catagory-nav.nav.nav-pills li > a:before {
+		top: 12px;
+		left: 0;
+		right: 0;
+	}
+	.nav-pills > li + li {
+		margin-left: 0;
+	}
+	.product-catagory-nav.nav.nav-pills li > a:before {
+		display: none;
+	}
+	.product-catagory-nav.nav.nav-pills li > a {
+		padding: 10px 0;
+	}
+	.product-catagory-nav.nav.nav-pills:before {
+		content: none;
+	}
+	.product-catagory-nav.nav.nav-pills li {
+		display: block;
+	}
+	.footer {
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.comment-list .media-left {
+		float: none;
+		padding-right: 0px;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.slider-content {
+		margin-top: 15px;
+	}
+	.slider-content h2 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.slider-content h3 {
+		font-size: 8px;
+		margin-top: 0px;
+	}
+	.slider-content .btn-common {
+		margin-top: 0;
+	}
+	.blog-content {
+		padding: 40px 25px 50px 25px;
+		background: #fff;
+	}
+}
+@media (max-width: 992px) {
+	/*-------- Collapse Navbar ----*/
+	.navbar-collapse.collapse {
+		display: none !important;
+		border-color: transparent;
+	}
+	.navbar-collapse.collapse.in {
+		display: block !important;
+		border-color: transparent;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+		display: block !important;
+	}
+	.navbar-header {
+		float: none;
+		border-bottom: none;
+	}
+	.navbar-default .navbar-toggle,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		border: none;
+		background: none;
+	}
+	.navbar-default .navbar-nav li a {
+	padding-left: 0;
+	}
+	.navbar-default {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-default .navbar-brand {
+		padding-left: 30px;
+	}
+	.navbar-default .has-sub-menu .sub-menu {
+		position: static;
+		display: block;
+		width: 100%;
+	}
+	.navbar-default .sub-menu li {
+	width: 100%;
+	}
+	.navbar-default .sub-menu .has-sub-menu:before {
+		content: none;
+	}
+	.navbar-default .sub-menu a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 50px !important;
+	}
+	.navbar-default .navbar-nav li {
+		float: none;
+		display: block;
+		margin-bottom: 0px;
+	}
+	.nav.navbar-nav {
+		float: none !important;
+	}
+	.navbar-default .navbar-nav li a:after {
+		left: 0;
+		margin-left: 0;
+	}
+	.navbar-default .nav li a {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+	.navbar-default.navbar-fixed-top .navbar-nav > .active > a:after ,
+	.navbar-default.navbar-fixed-top .navbar-nav > li > a:hover:after,
+	.navbar-default.navbar-fixed-top .navbar-nav > li > a:after{
+		content: none;
+	}
+	.navbar-default.navbar-fixed-top .navbar-nav > li > a {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.navbar-nav .has-sub-menu button {
+		position: absolute;
+		top: 18px;
+		right: 0;
+		color: #fff;
+		border: none;
+		display: block;
+		width: 50px;
+		font-size: 25px;
+		background: transparent;
+	}
+	.navbar-nav .has-sub-menu button:focus {
+		outline: 0;
+	}
+	.navbar-nav .has-sub-menu, .navbar-nav .has-megamenu {
+		position: relative !important;
+	}
+	.product-catagory-content .tab-pane {
+		padding: 50px;
+	}
+	.product-catagory-nav.nav.nav-pills li > a:before {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-nav {
+		margin: 0;
+	}
+	.navbar-default .social-icon {
+		display: none;
+	}
+	.navbar-default .navbar-brand {
+		padding-left: 15px;
+	}
+	.navbar-nav {
+		padding-top: 25px;
+	}
+}

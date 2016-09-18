@@ -1,0 +1,71 @@
+.product-catagory{
+	position: relative;
+	.catagory-outer-img{
+		position: absolute;
+		bottom: 0;
+		right: 45px;
+	}
+}
+.product-details-area{
+	margin-top: 155px;
+}
+.product-catagory-content{
+	.tab-pane{
+		padding: 90px 155px 90px 80px;
+		h5{
+			font-size: 15px;
+			font-weight: 400;
+			line-height: 22px;
+			letter-spacing: 0.135px;
+			color: $lite_blue;
+			margin-bottom: 30px;
+		}
+		h3{
+			font-weight: 700;
+			line-height: 22px;
+			letter-spacing: 0.216px;
+			color: $title_color;
+			margin-bottom: 35px;
+		}
+		p{
+			line-height: 28px;
+			font-weight: 300;
+		}
+	}
+}
+.product-catagory-nav.nav.nav-pills{
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		height: 1px;
+		width: 100%;
+		background: #bdbfc1;
+		top: 0;
+	}
+	li > a{
+		padding: 35px 30px 0px 30px;
+		position: relative;
+	}
+	li > a:before{
+		position: absolute;
+		content: url('../../images/misc/7.jpg');
+		top: -6px;	
+	}
+	li.active > a:before{
+		content: url('../../images/misc/6.jpg');
+	}
+	li.first a{
+		padding-left: 0;
+	}
+	li.last a{
+		padding-right: 0;
+	}
+	margin-top: 95px;
+	li > a:hover, li > a:focus,li.active a{
+		background: none;
+	}
+	li > a:focus,li.active a{
+		color: $lite_blue;
+	}
+}

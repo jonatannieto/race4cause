@@ -1,0 +1,70 @@
+
+/* This css file is to over write bootstarp css
+********************************************************* /
+* Theme Name: Mountain Bike
+* Theme URI:  http://themeforest.ne/user/codepassenger
+* Author: CodePassenger
+* Author URI: http://CodePassenger.com
+* Description:  Mountain Bike - Extreme Sport Club Template
+* Version: 1.0.0
+* License: GNU General Public License v2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Tags: bicycle, sport, bike, club, mountain, html5, template
+*********************************************************** /
+
+
+/*
+|----------------------------------------------------------------------------
+| CSS INDEX
+|----------------------------------------------------------------------------
+
+1. General Styles
+
+2. Button Styles
+
+3. Header Styles
+
+4. Service Styles
+
+5. Gallery Styles
+
+6. Blog Styles
+
+7. Category Styles
+
+8. Blog Page Styles
+
+9. Single Page Post
+
+10. Comments Style
+
+11. Comment Form Style
+
+12. Related Post
+
+13. Pagination Styles
+
+14. Sidebar Styles
+
+15. Footer Styles
+
+16. Responsive Styles
+	
+*/
+
+@import "common/_variables";
+@import "common/_mixins";
+@import "common/_general";
+
+@import "_header";
+@import "_about";
+@import "_product-catagory";
+@import "_gallery";
+@import "_breadcrumb";
+@import "_blog";
+@import "_partnar";
+@import "_pagination";
+@import "_sidebar";
+@import "_single";
+@import "_footer";
+@import "_responsive";
