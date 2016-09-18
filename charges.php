@@ -12,9 +12,10 @@
  echo '<p>2</p>';
  // Get the credit card details submitted by the form
  $token = $_POST['stripeToken'];
- echo '<p>3</p>';
+ echo $token;
  // Create a charge: this will charge the user's card
  try {
+     echo '<p>Charge</p>';
    $charge = \Stripe\Charge::create(array(
      "amount" => 2000, // Amount in cents
      "currency" => "eur",
