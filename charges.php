@@ -4,6 +4,8 @@
  </head>
  <body>
  <?php
+ require __DIR__ . 'vendor/autoload.php';
+ 
  echo '<p>Start payment</p>';
  // Set your secret key: remember to change this to your live secret key in production
  // See your keys here: https://dashboard.stripe.com/account/apikeys
