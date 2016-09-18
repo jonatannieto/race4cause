@@ -4,7 +4,7 @@
     $token  = $_POST['stripeToken'];
     
     $customer = \Stripe\Customer::create(array(
-        'email' => $customer->email,
+        'email' => 'customer@example.com',
         'source'  => $token
     ));
     
