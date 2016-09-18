@@ -366,9 +366,11 @@
                                 <form action="charge.php" method="post">
                                     <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                             data-key="<?php echo $stripe['publishable_key']; ?>"
-                                            data-description="Access for a year"
+                                            data-name="Race4Cause"
+                                            data-description="Donación 50"
                                             data-amount="5000"
-                                            data-locale="auto"></script>
+                                            data-locale="auto"
+                                            data-currency="eur">></script>
                                 </form>
 							</div><!-- /.col-md-4 -->
 						</div>
