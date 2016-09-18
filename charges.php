@@ -21,7 +21,7 @@
      "description" => "Example charge"
      ));
      echo '<p>Succesful</p>';
- } catch(\Stripe\Error\Card $e) {
+ } catch(vendor\stripe\stripe-php\lib\Stripe\Error\Card $e) {
    // The card has been declined
    echo '<p>Payment declined</p>';
  }
