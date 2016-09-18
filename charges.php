@@ -12,6 +12,8 @@
  // Get the credit card details submitted by the form
  $token = $_POST['stripeToken'];
 
+ echo '<p>Token:' + $_POST['stripeToken'] + '</p>';
+
  // Create a charge: this will charge the user's card
  try {
    $charge = \Stripe\Charge::create(array(
