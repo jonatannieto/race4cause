@@ -68,10 +68,11 @@
 							<li><a href="#EQUIPO">EQUIPO</a></li>
 							<li><a href="#DETALLES">DETALLES EVENTO</a></li>
 							<li><a href="#SPONSORSHIP">SPONSORSHIP</a></li>
+							<li><a href="#PAYMENTS">DONACIONES</a></li>
 							<li class="last"><a href="#FOOTER">CONTACT</a></li>
 						</ul>
 					</div>
-					
+
 				</div>
 			</nav>
 		</div>
@@ -85,24 +86,28 @@
 					<div class="container">
 						<h2>PRÓXIMO RETO<br/>TITAN DESERT 2017</h2>
 						<h3>A beneficio del Hospital Sant Joan de Déu</h3>
+						<br>
+						<div style="width:300px; height:165px"><img src="images\images\2010_03_obra_social_OK_cast_072pp_x600.jpg"></div>
 						<a href="#" class="btn-common slider-btn">APORTA TU GRANITO DE ARENA</a>
 					</div><!-- /.slider-content -->
 				</div>
 			</div>
 			<div class="item">
-				<img src="images/slider/2.jpg" alt="img">
+				<img src="images/slider/titan_desert_wall.jpg" alt="img">
 				<div class="slider-content">
 					<div class="container">
-						<h2>A NEW KIND OF<br/>BICYCLE SHOP</h2>
-						<h3>LOCALLY SOURCED x CRAFTED WITH LOVE</h3>
-						<a href="#" class="btn-common slider-btn">BUY NEW BICYCLE</a>
+						<h2>PRÓXIMO RETO<br/>TITAN DESERT 2017</h2>
+						<h3>A beneficio del Hospital Sant Joan de Déu</h3>
+						<br>
+						<div style="width:300px; height:165px"><img src="images\images\2010_03_obra_social_OK_cast_072pp_x600.jpg"></div>
+						<a href="#" class="btn-common slider-btn">APORTA TU GRANITO DE ARENA</a>
 					</div><!-- /.slider-content -->
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- slider end -->
-	
+
 	<!-- MAIN WRAPPER -->
 	<section>
 		<div class="content-wrapper">
@@ -145,7 +150,7 @@
 								<div class="about-heading">
 									<h6>TU RECOMPENSA</h6>
 								</div>
-								<p>Las personas y empresas colaboradoras tendrán sus nombres y logos impresos en los mallots del equipo, carteles y en plataformas de promoción del evento.</p>
+								<p>Las personas y empresas colaboradoras tendrán sus nombres y logos impresos en los mallots del corredor, carteles y en plataformas de promoción del evento solidario.</p>
 							</div><!-- /.about-content -->
 						</div>
 					</div>
@@ -159,12 +164,12 @@
 					</div>
 					<div class="filter-button-group gallary-filter-button text-center mrg-b-50">
 						<button class="active" data-filter="*">AlL</button>
-						<button data-filter=".EUROPE">EUROPE</button>
-						<button data-filter=".AUSTRALIA">AUSTRALIA</button>
-						<button data-filter=".ASIA">ASIA</button>
-						<button data-filter=".AFRICA">AFRICA</button>
-						<button data-filter=".N-AMERICA">NORTH AMERICA</button>
-						<button data-filter=".S-AMERICA">SOUTH AMERICA</button>
+						<button data-filter=".CAUSA1">CAUSA 1</button>
+						<button data-filter=".CAUSA2">CAUSA 2</button>
+						<button data-filter=".CAUSA3">CAUSA 3</button>
+						<button data-filter=".CAUSA4">CAUSA 4</button>
+						<button data-filter=".CAUSA5">CAUSA 5</button>
+						<button data-filter=".CAUSA6">CAUSA 6</button>
 					</div><!-- /.portfolioFilter -->
 				</div>
 				<div class="gallary-masonry-layout">
@@ -273,7 +278,7 @@
 								</div>
 							</div>
 						</div><!-- /.gallary-item -->
-					</div><!-- /.gallary_grid -->	
+					</div><!-- /.gallary_grid -->
 				</div>
 			</div><!-- /.gallery-masonry -->
 			<div id="EQUIPO" class="blog-section section-padding">
@@ -282,17 +287,43 @@
 						<h3>EQUIPO</h3>
 						<img src="images/misc/1.png" alt="img">
 						<p>
-							Para realizar la cursa, detrás de nuestro equipo tenemos el corredor, la bicicleta y un equipo de mecánicos.
+							Para realizar la cursa, detrás de nuestro equipo tenemos el corredor, la bicicleta y un equipo de apoyo en la cursa.
 						</p>
 					</div>
 					<div class="blog-content-area">
 						<div class="row">
 							<div class="col-md-4 col-sm-6">
+								<article class="post-single style-one last">
+									<div class="blog-thumb ps-rel">
+										<img src="images/blog/9.jpg" alt="img" class="img-responsive">
+										<div class="overlay-common"></div>
+										<a class="icon-positiond" href="http://www.bicisesteve.com" target="_blank"><img src="images/misc/9.png" alt="img"></a>
+									</div>
+									<div class="blog-content">
+										<h4 class="post-title">
+											<a href="http://www.bicisesteve.com" target="_blank">
+												ESTEVE
+											</a>
+										</h4>
+										<p class="mrg-b-20">
+												Para realizar la cursa contamos con el apoyo y la colaboración de un equipo referente en el mundo del ciclismo, ESTEVE. Encargado de la mecánica y control de todos sus corredores.
+												Agradecemos su colaboración en este evento.
+										</p>
+										<div class="blog-footer">
+											<div class="post-btn">
+												<h6 class="more-btn">EQUIPO/MECÁNICOS</h6>
+											</div>
+											<div class="clearfix"></div>
+										</div>
+									</div><!-- /.blog-content-->
+								</article>
+							</div><!-- /.col-md-4 -->
+							<div class="col-md-4 col-sm-6">
 								<article class="post-single style-one">
 									<div class="blog-thumb ps-rel">
 										<img src="images/blog/7.jpg" alt="img" class="img-responsive">
 										<div class="overlay-common"></div>
-										<a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a> 
+										<a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
 									</div>
 									<div class="blog-content">
 										<h4 class="post-title">
@@ -301,11 +332,11 @@
 											</a>
 										</h4>
 										<p class="mrg-b-20">
-											Ingeniero Informático, actualmente trabajo como Analista Programador y quiero llevar acabo este reto solidario para demostrar que con esfuerzo podemos superar los retos y ayudar a las personas que lo necesitan.
+											Ingeniero Informático, actualmente trabajo como analista programador y quiero llevar a cabo este reto solidario para demostrar que con esfuerzo podemos superar los retos y ayudar a las personas que lo necesitan.
 										</p>
 										<div class="blog-footer">
 											<div class="post-btn">
-												<h6 class="more-btn"><a href="#">CORREDOR</a></h6>
+												<h6 class="more-btn">CORREDOR</h6>
 											</div>
 											<div class="clearfix"></div>
 										</div>
@@ -317,62 +348,25 @@
 									<div class="blog-thumb ps-rel">
 										<img src="images/blog/8.jpg" alt="img" class="img-responsive">
 										<div class="overlay-common"></div>
-										<a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a> 
+										<a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a>
 									</div>
 									<div class="blog-content">
 										<h4 class="post-title">
 											<a href="#">
-												Próximamente.
+												Trek Procaliber 9.8 SL 2016
 											</a>
 										</h4>
 										<p class="mrg-b-20">
-											
+											Durante el auge del ciclismo de montaña, la Procaliber ahora se trata de volver para dominar de nuevo las cursas off-road, redefiniendo el término "hardtail" y elevando el listón en cuanto a velocidad y tecnología.
 										</p>
 										<div class="blog-footer">
 											<div class="post-btn">
-												<h6 class="more-btn"><a href="#">BICICLETA</a></h6>
+												<h6 class="more-btn">BICICLETA</h6>
 											</div>
 											<div class="clearfix"></div>
 										</div>
 									</div><!-- /.blog-content -->
 								</article>
-							</div><!-- /.col-md-4 -->
-							<div class="col-md-4 col-sm-6">
-								<!--<article class="post-single style-one last">
-									<div class="blog-thumb ps-rel">
-										<img src="images/blog/9.jpg" alt="img" class="img-responsive">
-										<div class="overlay-common"></div>
-										<a class="icon-positiond" href="single-right-sidebar.html"><img src="images/misc/9.png" alt="img"></a> 
-									</div>
-									<div class="blog-content">
-										<h4 class="post-title">
-											<a href="#">
-												Próximamente.
-											</a>
-										</h4>
-										<p class="mrg-b-20">
-											
-										</p>
-										<div class="blog-footer">
-											<div class="post-btn">
-												<h6 class="more-btn"><a href="#">MECÁNICOS</a></h6>
-											</div>
-											<div class="clearfix"></div>
-										</div>
-									</div><!-- /.blog-content 
-								</article>-->
-                                <?php require_once('config.php'); ?>
-
-                                <form action="charge.php" method="post">
-                                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                            data-key="<?php echo $stripe['publishable_key']; ?>"
-                                            data-name="Race4Cause"
-                                            data-description="Donación 50"
-                                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-                                            data-amount="5000"
-                                            data-locale="auto"
-                                            data-currency="eur">></script>
-                                </form>
 							</div><!-- /.col-md-4 -->
 						</div>
 					</div>
@@ -392,12 +386,12 @@
 							<div class="product-details-area">
 								<div class="product-catagory-content tab-content clearfix">
 									<div class="tab-pane active animated fadeInUp" data-wow-duration="1.5s" id="1b">
-										<h5>FINALES ABRIL 2017</h5>
+										<h5>DEL 30/ABRIL AL 5/MAYO</h5>
 										<h3>
 											TITAN DESERT 2017
 										</h3>
 										<p>
-											Es una carrera de grandes rasgos, abierta a todo tipo de amantes de la bicicleta, del deporte y del sacrificio. Es, por encima de todo, la carrera de la superación personal, del reto individual. Enfrentarse al desierto, al calor, a la distancia, en las peores condiciones imaginables.
+											Es una carrera de grandes rasgos, abierta a todo tipo de amantes de la bicicleta, del deporte y del sacrificio. Es por encima de todo, la carrera de la superación personal, del reto individual. Enfrentarse al desierto, al calor, a la distancia, en las peores condiciones imaginables.
 										</p>
 										<a href="http://www.titandesert.com/" target="_blank" class="btn-common slider-btn">MÁS INFO</a>
 									</div>
@@ -427,9 +421,10 @@
 											GRÁCIAS POR LA AYUDA
 										</h3>
 										<p>
-											Grácias a vuestra ayuda podremos realizar el evento y la donación de la cantidad recaudada a beneficio del Hospital Sant Joan de Déu.
+											Grácias por vuestra ayuda y participar en el evento. La donación de la cantidad recaudada* es en beneficio del Hospital Sant Joan de Déu.
 										</p>
 										<a href="#" class="btn-common slider-btn">APORTA TU GRANITO DE ARENA</a>
+										<br><br><font size="1">*De la cantidad recaudada se restarán los costes de organización y web.</font>
 									</div>
 								</div>
 								<ul class="product-catagory-nav nav nav-pills">
@@ -465,7 +460,7 @@
                         <h3>DONACIONES</h3>
                         <img src="images/misc/1.png" alt="img">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis lacus convallis, elementum turpis sed, porta urna.<br/>felis vitae justo tempor pulvinar.
+                            Toda ayuda es buena, tanto particulares como empresas podéis realizar vuestra donación.<br/>Hay recompensa para todos aquellos que participais.
                         </p>
                     </div>
                     <div class="blog-content-area">
@@ -480,11 +475,12 @@
                                     <div class="blog-content">
                                         <h4 class="post-title">
                                             <a href="#">
-                                                Shoot the trails was awesome last night.
+                                                Donación individual
                                             </a>
                                         </h4>
                                         <p class="mrg-b-20">
-                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                                            - Nombre en el mallot del corredor.
+																						- Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
                                         </p>
                                         <div class="blog-footer">
                                             <div class="post-meta-data">
@@ -492,7 +488,16 @@
                                                 <span class="post-author last">BY <a href="#">ADMIN</a></span>
                                             </div>
                                             <div class="post-btn">
-                                                <h6 class="more-btn"><a href="#">READ MORE</a></h6>
+                                                <h6 class="more-btn"><form action="charge.php" method="post">
+								                                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								                                            data-key="<?php echo $stripe['publishable_key']; ?>"
+								                                            data-name="Race4Cause"
+								                                            data-description="Donación 50"
+								                                            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								                                            data-amount="5000"
+								                                            data-locale="auto"
+								                                            data-currency="eur">></script>
+								                                </form></h6>
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
@@ -692,15 +697,15 @@
 			</div><!-- /.partners-section -->
 		</div>
 	</section>
-	
+
 	<footer  id="FOOTER" class="footer">
 		<div class="container">
 			<div class="footer-middle">
 				<div class="row">
 					<div class="col-md-6">
 						<form class="subscribe-form">
-							<input type="email" name="emal" placeholder="E-mail address">
-							<input type="submit" class="btn-common contact-btn" value="SUBSCRIBE">
+							<input type="email" name="email" placeholder="Dirección E-mail">
+							<input type="submit" class="btn-common contact-btn" value="SUSCRIBIRSE">
 						</form>
 					</div>
 					<div class="col-md-offset-3 col-md-3">
@@ -709,7 +714,6 @@
 							<ul>
 								<li><a class="facebook" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 								<li><a class="twitter" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-								<li><a class="youtube" href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -719,7 +723,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<div class="address-text">
-							<i class="fa fa-map-marker" aria-hidden="true"></i> 
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
 							<p>
 								Barcelona
 							</p>
